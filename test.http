@@ -1,0 +1,8 @@
+PUT http://localhost:8080/todos HTTP/1.1
+content-type: application/json
+
+{
+    "ID": 1,
+    "Subject": "subject",
+    "Description": "description"
+}
